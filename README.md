@@ -14,7 +14,7 @@ so you can use it with confidence.
 
 For more information,please see the codes.Comment is enough.
 
-## Simple test：
+## Simple test
 ```python
 import numpy as np
 from OCBA import OCBA
