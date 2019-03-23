@@ -90,4 +90,5 @@ def OCBA(design_mean, design_var, design_used, addiction_budget):
     # Allocating unused computing budget to the design with the highest variance
     should_used[var_highest_id] += temp_budget - sum(should_used[active])
     assert sum(should_used - design_used) == addiction_budget, "wrong"
+    
     return True, should_used - design_used
